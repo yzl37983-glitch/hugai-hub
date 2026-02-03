@@ -1,4 +1,4 @@
-# HugAi: Nano Agent Hub 🤖
+# HugAi 🤖
 
 <div align="center">
 
