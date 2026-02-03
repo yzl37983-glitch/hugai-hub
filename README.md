@@ -1,7 +1,6 @@
-# HugAi 🤖
-
 <div align="center">
-
+# HugAi 🤖
+  
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?logo=typescript)
