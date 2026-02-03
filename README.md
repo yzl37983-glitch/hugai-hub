@@ -1,6 +1,8 @@
 <div align="center">
+# HugAi 🤖
+  
+<div align="center">
 
-  #HugAi 🤖
   
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-19.0-61DAFB?logo=react)
