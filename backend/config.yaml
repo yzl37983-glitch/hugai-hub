@@ -1,0 +1,30 @@
+llm:
+  provider: "openai" # openai, ollama, anthropic
+  model: "gpt-4-turbo"
+  base_url: "https://api.openai.com/v1"
+  api_key: "${OPENAI_API_KEY}"
+  temperature: 0.7
+
+system:
+  mode: "multi-agent" # multi-agent, agentic, workflow
+
+agents:
+  supervisor:
+    name: "Supervisor"
+    prompt: "You are the supervisor. Manage the conversation between the following workers: {members}. Given the following user request, respond with the worker to act next. Each worker will perform a task and respond with their results and status. When finished, respond with FINISH."
+  
+  workers:
+    - name: "SearchAgent"
+      role: "Researcher"
+      prompt: "You are a research assistant. Use the search tool to find information."
+      tools: ["duckduckgo_search"]
+      
+    - name: "RAGAgent"
+      role: "KnowledgeExpert"
+      prompt: "You are a knowledge base expert. Retrieve information from the vector database."
+      tools: ["retrieve_documents"]
+      
+    - name: "ChatAgent"
+      role: "Responder"
+      prompt: "You are a helpful assistant. Answer the user directly."
+      tools: []
