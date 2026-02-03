@@ -1,0 +1,5 @@
+{
+  "name": "HugAi Web",
+  "description": "A modern, responsive React frontend for the HugAi Multi-Agent System. Features a chat interface with visualization of the Supervisor-Worker agent architecture, configuration management, and knowledge base interactions.",
+  "requestFramePermissions": []
+}
