@@ -1,4 +1,3 @@
-<div align="center">
 # HugAi 🤖
   
 <div align="center">
@@ -22,7 +21,7 @@
 
 ## 📖 简介 (Introduction)
 
-**HugAi** 是一个现代化的全栈 AI Agent 平台。它旨在弥合复杂的后端逻辑（基于 LangGraph）与最终用户体验之间的鸿沟。
+**HugAi** 是一个现代化的全栈 AI Agent 平台。它旨在弥合复杂的后端逻辑与最终用户体验之间的鸿沟。
 
 通过 HugAi，你可以通过可视化界面配置智能体团队，观察它们的**思维链 (Chain of Thought)**，并支持在 **Multi-Agent（多智能体协作）**、**Agentic Loop（深度思考）** 和 **Workflow（线性工作流）** 三种模式间无缝切换。
 
